@@ -46,7 +46,7 @@ describe('Comment', () => {
   })
   
   it('has the proper class', () => {
-    expect(comment.hasClass('comment')).to.equal(true)
+    expect(comment.hasClass('comment')).to.equal(false)
   })
   
 })
